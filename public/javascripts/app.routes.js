@@ -30,7 +30,9 @@
 
 
 				 $urlRouterProvider.otherwise("/");
-				 $locationProvider.hashPrefix("BlackRock");
+				 $locationProvider
+				 	.html5Mode(true)
+				 	.hashPrefix("BlackRock");
 				 
 		}]);
 
