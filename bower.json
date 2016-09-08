@@ -1,0 +1,31 @@
+{
+  "name": "employeeManagementApp",
+  "description": "Application that add,edit,delete employees and presents them in different views",
+  "main": "main.js",
+  "keywords": [
+    "NodeJS",
+    "Javascript",
+    "ECMAScript",
+    "Bootstrap",
+    "AngularJS",
+    "HTML5"
+  ],
+  "authors": [
+    "gkjha009"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-filter": "^0.5.9"
+  }
+}

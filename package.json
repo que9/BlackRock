@@ -1,0 +1,44 @@
+{
+  "name": "empmanagementapp",
+  "version": "1.0.0",
+  "description": "Employee management application",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "static-favicon": "^2.0.0-alpha"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "debug": "^2.2.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-replace": "^1.6.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "morgan": "^1.7.0",
+    "tiny-lr": "^0.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "keywords": [
+    "html5",
+    "nodejs",
+    "angular",
+    "bower",
+    "express"
+  ],
+  "author": "gkjha009",
+  "license": "ISC"
+}
